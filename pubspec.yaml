@@ -4,16 +4,15 @@ version: 0.3.0
 homepage: https://github.com/Enough-Software/enough_icalendar_export
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  add_2_calendar: ^2.1.2
-  enough_icalendar: #^0.11.0
-    git:
-      url: https://github.com/Enough-Software/enough_icalendar.git
+  add_2_calendar: ^2.2.3
+  enough_icalendar: ^0.14.0
+    # git:
+    #   url: https://github.com/Enough-Software/enough_icalendar.git
     # path: ../enough_icalendar
     
 dev_dependencies:
